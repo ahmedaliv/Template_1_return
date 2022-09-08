@@ -1,0 +1,59 @@
+/* 2- General Css Styles */ 
+
+
+:root {
+    --maincolor: #6195ff;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+
+}
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.clear {
+    clear:both;  
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family:montserrat,sans-serif;
+}
+button {
+    font-family:inherit ;
+}
+
+
+
+a {
+    text-decoration: none;
+
+}
+.pd-y{
+    padding:120px 0;
+}
+.section-header {
+    text-align: center;
+
+}
+.section-header .section-title{
+    font-size: 35px;
+    text-transform: capitalize;
+
+}
+.section-header .section-line {
+    display:block;
+    width:60px;
+    height:3px;
+    background-color: #6195ff   ;
+    margin:0 auto 70px auto;
+
+}
+ul {
+    list-style: none;
+}
+
